@@ -1,0 +1,493 @@
+{
+  "sounds": [
+    {
+      "name": "Birds Chirping",
+      "category": "Animals",
+      "file": "/sounds/animals/birds.mp3",
+      "tags": ["birds", "morning", "nature"],
+      "icontype": "bird"
+    },
+    {
+      "name": "Cat Purring",
+      "category": "Animals",
+      "file": "/sounds/animals/cat-purring.mp3",
+      "tags": ["cat", "pet", "relaxing"],
+      "icontype": "cat"
+    },
+    {
+      "name": "Dog Barking",
+      "category": "Animals",
+      "file": "/sounds/animals/dog-barking.mp3",
+      "tags": ["dog", "pet", "bark"],
+      "icontype": "dog"
+    },
+    {
+      "name": "Crickets Night",
+      "category": "Animals",
+      "file": "/sounds/animals/crickets.mp3",
+      "tags": ["insects", "night", "nature"],
+      "icontype": "cricket"
+    },
+    {
+      "name": "Crow",
+      "category": "Animals",
+      "file": "/sounds/animals/crows.mp3",
+      "tags": ["farm", "animals", "countryside"],
+      "icontype": "crow"
+    },
+    {
+      "name": "Frogs",
+      "category": "Animals",
+      "file": "/sounds/animals/frog.mp3",
+      "tags": ["frogs", "pond", "night"],
+      "icontype": "frog"
+    },
+    {
+      "name": "Horses",
+      "category": "Animals",
+      "file": "/sounds/animals/horse-galopp.mp3",
+      "tags": ["horses", "farm", "galloping"],
+      "icontype": "horse"
+    },
+    {
+      "name": "Whales",
+      "category": "Animals",
+      "file": "/sounds/animals/whale.mp3",
+      "tags": ["whale", "underwater", "nature"],
+      "icontype": "whale"
+    },
+    {
+      "name": "Owl Hooting",
+      "category": "Animals",
+      "file": "/sounds/animals/owl.mp3",
+      "tags": ["owl", "night", "forest"],
+      "icontype": "owl"
+    },
+    {
+      "name": "Seagulls",
+      "category": "Animals",
+      "file": "/sounds/animals/seagulls.mp3",
+      "tags": ["birds", "beach", "ocean"],
+      "icontype": "seagull"
+    },
+    {
+      "name": "Wolf",
+      "category": "Animals",
+      "file": "/sounds/animals/wolf.mp3",
+      "icontype": "wolf"
+    },
+
+    {
+      "name": "Alpha Waves",
+      "category": "Binaural",
+      "file": "/sounds/binaural/binaural-alpha.wav",
+      "tags": ["meditation", "relaxation", "brainwaves"],
+      "icontype": "wave"
+    },
+    {
+      "name": "Beta Waves",
+      "category": "Binaural",
+      "file": "/sounds/binaural/binaural-beta.wav",
+      "tags": ["focus", "attention", "brainwaves"],
+      "icontype": "wave"
+    },
+    {
+      "name": "Delta Waves",
+      "category": "Binaural",
+      "file": "/sounds/binaural/binaural-delta.wav",
+      "tags": ["deep sleep", "healing", "brainwaves"],
+      "icontype": "wave"
+    },
+    {
+      "name": "Gamma Waves",
+      "category": "Binaural",
+      "file": "/sounds/binaural/binaural-gamma.wav",
+      "tags": ["insight", "perception", "brainwaves"],
+      "icontype": "wave"
+    },
+    {
+      "name": "Theta Waves",
+      "category": "Binaural",
+      "file": "/sounds/binaural/binaural-theta.wav",
+      "tags": ["healing", "meditation", "frequency"],
+      "icontype": "wave"
+    },
+
+    {
+      "name": "Campfire",
+      "category": "Nature",
+      "file": "/sounds/nature/campfire.mp3",
+      "tags": ["forest", "nature", "peaceful"],
+      "icontype": "fire"
+    },
+    {
+      "name": "Droplets",
+      "category": "Nature",
+      "file": "/sounds/nature/droplets.mp3",
+      "tags": ["water", "flowing", "nature"],
+      "icontype": "drop"
+    },
+    {
+      "name": "Howling Wind",
+      "category": "Nature",
+      "file": "/sounds/nature/howling-wind.mp3",
+      "tags": ["wind", "trees", "nature"],
+      "icontype": "wind"
+    },
+    {
+      "name": "Jungle Ambience",
+      "category": "Nature",
+      "file": "/sounds/nature/jungle.mp3",
+      "tags": ["trees", "crickets", "wind"],
+      "icontype": "tree"
+    },
+    {
+      "name": "River",
+      "category": "Nature",
+      "file": "/sounds/nature/river.mp3",
+      "tags": ["water", "falling", "nature"],
+      "icontype": "river"
+    },
+    {
+      "name": "Walk in Snow",
+      "category": "Nature",
+      "file": "/sounds/nature/walk-in-snow.mp3",
+      "tags": ["snow", "weather"],
+      "icontype": "snow"
+    },
+    {
+      "name": "Walk on leaves",
+      "category": "Nature",
+      "file": "/sounds/nature/walk-on-leaves.mp3",
+      "tags": ["night", "crickets", "nature"],
+      "icontype": "leaf"
+    },
+    {
+      "name": "Waterfall",
+      "category": "Nature",
+      "file": "/sounds/nature/waterfall.mp3",
+      "tags": ["water", "mountains", "nature"],
+      "icontype": "waterfall"
+    },
+    {
+      "name": "Beach Waves",
+      "category": "Nature",
+      "file": "/sounds/nature/waves.mp3",
+      "tags": ["beach", "waves", "ocean"],
+      "icontype": "wave"
+    },
+    {
+      "name": "Wind",
+      "category": "Nature",
+      "file": "/sounds/nature/wind.mp3",
+      "tags": ["river", "water", "nature"],
+      "icontype": "wind"
+    },
+    {
+      "name": "Wind in Trees",
+      "category": "Nature",
+      "file": "/sounds/nature/wind-in-trees.mp3",
+      "tags": ["wind", "desert", "nature"],
+      "icontype": "tree"
+    },
+
+    {
+      "name": "White Noise",
+      "category": "Noise",
+      "file": "/sounds/noise/white-noise.wav",
+      "tags": ["noise", "static", "focus"],
+      "icontype": "noise"
+    },
+    {
+      "name": "Pink Noise",
+      "category": "Noise",
+      "file": "/sounds/noise/pink-noise.wav",
+      "tags": ["noise", "static", "sleep"],
+      "icontype": "noise"
+    },
+    {
+      "name": "Brown Noise",
+      "category": "Noise",
+      "file": "/sounds/noise/brown-noise.wav",
+      "tags": ["noise", "static", "deep"],
+      "icontype": "noise"
+    },
+
+    {
+      "name": "Airport Terminal",
+      "category": "Places",
+      "file": "/sounds/places/airport.mp3",
+      "tags": ["quiet", "study", "pages"],
+      "icontype": "airport"
+    },
+    {
+      "name": "Cafe",
+      "category": "Places",
+      "file": "/sounds/places/cafe.mp3",
+      "tags": ["cafe", "coffee", "people"],
+      "icontype": "coffee"
+    },
+    {
+      "name": "Carousel",
+      "category": "Places",
+      "file": "/sounds/places/carousel.mp3",
+      "tags": ["school", "education", "ambient"],
+      "icontype": "carousel"
+    },
+    {
+      "name": "Office",
+      "category": "Places",
+      "file": "/sounds/places/office.mp3",
+      "tags": ["work", "typing", "phones"],
+      "icontype": "building"
+    },
+    {
+      "name": "Crowded Bar",
+      "category": "Places",
+      "file": "/sounds/places/crowded-bar.mp3",
+      "tags": ["shopping", "people", "ambient"],
+      "icontype": "bar"
+    },
+    {
+      "name": "Laboratory",
+      "category": "Places",
+      "file": "/sounds/places/laboratory.mp3",
+      "tags": ["airport", "announcements", "people"],
+      "icontype": "lab"
+    },
+    {
+      "name": "Laundry Room",
+      "category": "Places",
+      "file": "/sounds/places/laundry-room.mp3",
+      "tags": ["waves", "seagulls", "people"],
+      "icontype": "washer"
+    },
+    {
+      "name": "Night Village",
+      "category": "Places",
+      "file": "/sounds/places/night-village.mp3",
+      "tags": ["nature", "birds", "wind"],
+      "icontype": "house"
+    },
+    {
+      "name": "Subway Station",
+      "category": "Places",
+      "file": "/sounds/places/subway-station.mp3",
+      "tags": ["dripping", "echo", "underground"],
+      "icontype": "subway"
+    },
+    {
+      "name": "Supermarket",
+      "category": "Places",
+      "file": "/sounds/places/supermarket.mp3",
+      "tags": ["dripping", "echo", "underground"],
+      "icontype": "shop"
+    },
+    {
+      "name": "Temple",
+      "category": "Places",
+      "file": "/sounds/places/temple.mp3",
+      "tags": ["dripping", "echo", "underground"],
+      "icontype": "temple"
+    },
+    {
+      "name": "Underwater",
+      "category": "Places",
+      "file": "/sounds/places/underwater.mp3",
+      "tags": ["rain", "gentle", "weather"],
+      "icontype": "water"
+    },
+
+    {
+      "name": "Heavy Rain",
+      "category": "Rain",
+      "file": "/sounds/rain/heavy-rain.mp3",
+      "tags": ["rain", "storm", "weather"],
+      "icontype": "rain"
+    },
+    {
+      "name": "Light Rain",
+      "category": "Rain",
+      "file": "/sounds/rain/light-rain.mp3",
+      "tags": ["rain", "window", "drops"],
+      "icontype": "rain"
+    },
+    {
+      "name": "Rain and Thunder",
+      "category": "Rain",
+      "file": "/sounds/rain/thunder.mp3",
+      "tags": ["rain", "thunder", "storm"],
+      "icontype": "thunder"
+    },
+    {
+      "name": "Rain on Tent",
+      "category": "Rain",
+      "file": "/sounds/rain/rain-on-tent.mp3",
+      "tags": ["rain", "tent", "camping"],
+      "icontype": "tent"
+    },
+    {
+      "name": "Rain on Leaves",
+      "category": "Rain",
+      "file": "/sounds/rain/rain-on-leaves.mp3",
+      "tags": ["rain", "leaves", "nature"],
+      "icontype": "leaf"
+    },
+    {
+      "name": "Rain on Umbrella",
+      "category": "Rain",
+      "file": "/sounds/rain/rain-on-umbrella.mp3",
+      "tags": ["rain", "umbrella", "close"],
+      "icontype": "umbrella"
+    },
+    {
+      "name": "Rain on Window",
+      "category": "Rain",
+      "file": "/sounds/rain/rain-on-window.mp3",
+      "tags": ["rain", "umbrella", "close"],
+      "icontype": "window"
+    },
+
+    {
+      "name": "Boiling Water",
+      "category": "Things",
+      "file": "/sounds/things/boiling-water.mp3",
+      "tags": ["water", "boiling"],
+      "icontype": "pot"
+    },
+    {
+      "name": "Bubbles",
+      "category": "Things",
+      "file": "/sounds/things/bubbles.mp3",
+      "tags": ["water", "bubbles"],
+      "icontype": "bubble"
+    },
+    {
+      "name": "Ceiling Fan",
+      "category": "Things",
+      "file": "/sounds/things/ceiling-fan.mp3",
+      "tags": ["fan"],
+      "icontype": "fan"
+    },
+    {
+      "name": "Clock",
+      "category": "Things",
+      "file": "/sounds/things/clock.mp3",
+      "tags": ["clock", "ticking"],
+      "icontype": "clock"
+    },
+    {
+      "name": "Dryer",
+      "category": "Things",
+      "file": "/sounds/things/dryer.mp3",
+      "tags": ["dryer"],
+      "icontype": "dryer"
+    },
+    {
+      "name": "Keyboard",
+      "category": "Things",
+      "file": "/sounds/things/keyboard.mp3",
+      "tags": ["typing", "keyboard"],
+      "icontype": "keyboard"
+    },
+    {
+      "name": "Morse Code",
+      "category": "Things",
+      "file": "/sounds/things/morse-code.mp3",
+      "tags": ["morse", "code"],
+      "icontype": "radio"
+    },
+    {
+      "name": "Paper",
+      "category": "Things",
+      "file": "/sounds/things/paper.mp3",
+      "tags": ["paper"],
+      "icontype": "paper"
+    },
+    {
+      "name": "Singing Bowl",
+      "category": "Things",
+      "file": "/sounds/things/singing-bowl.mp3",
+      "tags": ["meditation", "bowl"],
+      "icontype": "bowl"
+    },
+    {
+      "name": "Slide Projector",
+      "category": "Things",
+      "file": "/sounds/things/slide-projector.mp3",
+      "tags": ["projector", "office"],
+      "icontype": "projector"
+    },
+    {
+      "name": "Tuning Radio",
+      "category": "Things",
+      "file": "/sounds/things/tuning-radio.mp3",
+      "tags": ["water", "boiling"],
+      "icontype": "radio"
+    },
+    {
+      "name": "Typewriter",
+      "category": "Things",
+      "file": "/sounds/things/typewriter.mp3",
+      "tags": ["typing", "writer", "typewriter"],
+      "icontype": "typewriter"
+    },
+    {
+      "name": "Washing Machine",
+      "category": "Things",
+      "file": "/sounds/things/washing-machine.mp3",
+      "tags": ["water", "boiling"],
+      "icontype": "washer"
+    },
+    {
+      "name": "Wind Chimes",
+      "category": "Things",
+      "file": "/sounds/things/wind-chimes.mp3",
+      "tags": ["water", "boiling"],
+      "icontype": "chime"
+    },
+
+    {
+      "name": "Train",
+      "category": "Transport",
+      "file": "/sounds/transport/train.mp3",
+      "tags": ["train", "railway", "travel"],
+      "icontype": "train"
+    },
+    {
+      "name": "Airplane",
+      "category": "Transport",
+      "file": "/sounds/transport/airplane.mp3",
+      "tags": ["plane", "flight", "engine"],
+      "icontype": "plane"
+    },
+    {
+      "name": "Inside a Train",
+      "category": "Transport",
+      "file": "/sounds/transport/inside-a-train.mp3",
+      "tags": ["wind", "train"],
+      "icontype": "train"
+    },
+    {
+      "name": "Rowing Boat",
+      "category": "Transport",
+      "file": "/sounds/transport/rowing-boat.mp3",
+      "tags": ["rowing", "boat"],
+      "icontype": "boat"
+    },
+    {
+      "name": "Sail Boat",
+      "category": "Transport",
+      "file": "/sounds/transport/sailboat.mp3",
+      "tags": ["bus", "public", "transport"],
+      "icontype": "sailboat"
+    },
+    {
+      "name": "Submarine",
+      "category": "Transport",
+      "file": "/sounds/transport/submarine.mp3",
+      "tags": ["ship", "boat", "horn"],
+      "icontype": "submarine"
+    }
+  ]
+}
