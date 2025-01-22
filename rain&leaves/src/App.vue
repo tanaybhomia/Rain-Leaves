@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import SoundCard from './components/SoundCard.vue'
 import HomeView from '@/views/HomeView.vue'
+import FavoriteSounds from './views/FavoriteSounds.vue'
 import { ref, provide, onMounted } from 'vue'
 </script>
 
@@ -24,6 +25,7 @@ import { ref, provide, onMounted } from 'vue'
     <div class="maincontainer p-10 mx-auto flex flex-col gap-10 max-w-5xl py-5">
       <div class="favourites align-middle text-center">
         <h1 class="text-textPrimary font-heading text-2xl mb-5">Favourites</h1>
+        <FavoriteSounds />
       </div>
 
       <div class="allSounds">

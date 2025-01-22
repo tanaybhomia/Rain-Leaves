@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { Howler, Howl } from 'howler'
-import { ref, onMounted, onUnmounted, watch, markRaw, computed } from 'vue'
+import { ref, onMounted, onUnmounted, watch, markRaw, computed, inject } from 'vue'
 import { CloudIcon } from '@heroicons/vue/24/solid'
 import { HelpCircle } from 'lucide-vue-next'
+import { Heart } from 'lucide-vue-next'
 
 const props = defineProps({
   sound: {
@@ -11,13 +12,14 @@ const props = defineProps({
   },
 })
 
+const isFav = ref(false)
 const IconComponent = ref(markRaw(HelpCircle))
 
 async function loadIcon() {
   try {
     // Convert icon type to PascalCase for Lucide naming convention
     const iconName = props.sound.icontype
-      .split('-')
+      .split(' ')
       .map((word) => word.charAt(0).toLowerCase() + word.slice(1))
       .join('')
 
@@ -137,8 +139,7 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="maincard p-2"
-    @click="togglePlay"
+    class="maincard p-2 z-999 relative"
     :class="{
       error: hasError,
       playing: isPlaying,
@@ -147,16 +148,17 @@ onUnmounted(() => {
     <div class="soundIcon">
       <component
         :is="IconComponent"
-        class="w-12 h-12"
+        class="w-10 h-10"
         :class="{
           'text-gray-700': !isPlaying,
-          'text-green-500': isPlaying,
+          'text-white-200': isPlaying,
         }"
+        @click="togglePlay"
         :stroke-width="1.5"
       />
     </div>
     <div class="soundName">
-      <p class="text-textPrimary font-sans">{{ sound.name }}</p>
+      <p class="text-textPrimary font-sans text-sm" @click="togglePlay">{{ sound.name }}</p>
       <p v-if="hasError" class="text-red-500 text-sm">Failed to load sound</p>
     </div>
     <div class="volSlider" @click.stop>
@@ -167,17 +169,29 @@ onUnmounted(() => {
         step="1"
         v-model="volume"
         @input="handleVolumeChange"
-        class="slider w-full h-2 bg-gray-300 rounded-lg cursor-pointer accent-green-500"
+        class="slider w-full h-2 rounded-lg cursor-pointer accent-green-500"
         :disabled="hasError"
+      />
+    </div>
+    <div class="favicon absolute top-3 right-2">
+      <Heart
+        :class="{
+          change: true,
+          'h-3': true,
+        }"
       />
     </div>
   </div>
 </template>
 
 <style scoped>
+.change {
+  color: #374051;
+  font-weight: bold;
+}
 .maincard {
   height: 150px;
-  width: 170px;
+  width: 150px;
   display: flex;
   flex-direction: column;
   border-radius: 12px;
@@ -223,26 +237,23 @@ onUnmounted(() => {
   appearance: none;
   outline: none;
   width: 120px;
+  background-color: #27272a;
 }
 
 .slider::-webkit-slider-thumb {
   appearance: none;
-  height: 16px;
-  width: 16px;
-  background-color: #27272a;
+  height: 12px;
+  width: 12px;
+  background-color: #25252a;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease;
 }
 
-.slider::-webkit-slider-thumb:hover {
-  transform: scale(1.1);
-}
-
 .slider::-moz-range-thumb {
-  height: 16px;
-  width: 16px;
+  height: 12px;
+  width: 12px;
   background-color: #27272a;
   border-radius: 50%;
   cursor: pointer;

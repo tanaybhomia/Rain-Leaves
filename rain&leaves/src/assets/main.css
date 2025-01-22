@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  overflow-x: hidden; /* Hides both horizontal and vertical scrollbars */
+}
+
+html,
+body {
+  overflow-x: hidden; /* Hides both horizontal and vertical scrollbars */
+}
